@@ -1,0 +1,147 @@
+body {
+  background-image: url("./assets//background.jpg");
+  /* background-position: 100vw 100vh; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  /* border: 3px solid red; */
+  width: 800px;
+  height: 650px;
+  margin-top: 30px;
+}
+
+.box-1 {
+  background: url("./assets/city.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 650px;
+  width: 500px;
+}
+
+.box-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* border: 1px solid red; */
+  background-color: transparent;
+  height: 650px;
+  width: 300px;
+  background-color: black;
+  opacity: 0.6;
+}
+
+.img-1 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.b1-1 {
+  letter-spacing: 2px;
+  padding: 15px;
+  text-align: right;
+  /* border: 1px solid yellow; */
+  height: 100px;
+  width: 92%;
+  max-width: 100%;
+}
+
+.b1-1 h2 span {
+  display: block;
+}
+
+.b1-2 {
+  position: relative;
+  top: 60%;
+  /* border: 1px solid yellow; */
+  height: 110px;
+  width: 95%;
+  margin: 5px;
+  padding: 5px;
+  max-width: 100%;
+}
+
+.b2-1 {
+  padding: 10px;
+  display: inline;
+  /* border: 1px solid red; */
+  width: 49%;
+  height: 80px;
+  float: left;
+}
+
+.b2-2 {
+  /* border: 1px solid red; */
+  width: 46%;
+  float: right;
+  display: inline;
+  height: 100px;
+}
+
+.b2-1 h2 span {
+  display: block;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.b2-2 h1 {
+  font-size: 44px;
+  position: relative;
+  top: 40%;
+  left: 40%;
+  display: inline;
+}
+
+.boxes {
+  /* border: 1px solid yellow; */
+  height: auto;
+  width: 100%;
+  /* border: 1px solid red; */
+  font-weight: 600;
+}
+
+.weather-icon {
+  height: 150px;
+  width: 150px;
+}
+
+.search-input {
+  font-size: 14px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  color: white;
+  padding: 5px;
+}
+
+.search-input[type="text"]:focus {
+  border-bottom: 2px solid white;
+}
+
+.search-icon {
+  position: relative;
+  top: 10px;
+  left: 15px;
+  cursor: pointer;
+}
+
+.b22-4 {
+  position: relative;
+  top: 30px;
+}
+
+.b22-4 table td {
+  width: 200px;
+}
+
+.b22-4 table th,
+td {
+  border-bottom: 1px solid #ddd;
+}
