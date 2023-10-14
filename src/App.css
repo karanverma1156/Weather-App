@@ -145,3 +145,32 @@ body {
 td {
   border-bottom: 1px solid #ddd;
 }
+
+@media screen and (max-width: 425px) {
+  body {
+    font-size: 12px;
+  }
+
+  .container {
+    margin: 0;
+    width: 100vw;
+  }
+
+  .box-1 {
+    background: none;
+    width: 50vw;
+  }
+
+  .box-2 {
+    width: 50vw;
+  }
+
+  .img-1 {
+    height: 100vw;
+    width: 100vw;
+  }
+
+  .b1-1 {
+    padding: 0;
+  }
+}
